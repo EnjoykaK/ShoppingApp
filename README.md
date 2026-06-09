@@ -19,10 +19,10 @@ Mit dieser Anwendung können Benutzer digitale Einkaufslisten erstellen und verw
 
 ##  Technologien & Bibliotheken
 
-* **Python 3.14**
-* **Tkinter** (integrierte GUI-Bibliothek)
-* **SQLite3** (integrierte relationale Datenbank)
-* **Pillow (PIL)** (für die Verarbeitung des App-Icons)
+* Python 3.14
+* Tkinter
+* SQLite3 
+* Pillow (PIL)
 
 ---
 
