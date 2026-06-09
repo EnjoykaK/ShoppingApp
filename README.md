@@ -28,6 +28,6 @@ Mit dieser Anwendung können Benutzer digitale Einkaufslisten erstellen und verw
 
 ## Installation & Ausführung
 
-1. Stellen Sie sicher, dass Python und die Bibliothek Pillow installiert sind:
+
 ```bash
    pip install Pillow
