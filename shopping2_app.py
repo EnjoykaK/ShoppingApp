@@ -52,7 +52,8 @@ window.title("Shopping List")
 window.geometry("400x500")
 window.configure(bg = "lightyellow")
 
-icon = ImageTk.PhotoImage(Image.open(r"C:\Users\Student\OneDrive - GFN GmbH (EDU)\Dokumente\My Python\shopping2.png.png"))
+icon_path = Path(__file__).parent / "shopping2.png.png"
+icon = ImageTk.PhotoImage(Image.open(icon_path))
 window.iconphoto(True, icon)
 button = tk.Button(window, text = "Produkt hinzufügen", bg="lightgreen", fg="darkgreen", width=20, command=hinzufügen)
 button.pack(anchor="nw", pady=5)
