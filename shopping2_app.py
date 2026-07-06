@@ -2,10 +2,12 @@
 import tkinter as tk
 from tkinter import simpledialog
 import sqlite3
+from pathlib import Path
 from PIL import Image, ImageTk
 
 def verbinden():
-    return sqlite3.connect(r"C:\Users\Student\OneDrive - GFN GmbH (EDU)\Dokumente\My Python\shopping2.db")
+    db_path = Path(__file__).parent / "shopping2.db"
+    return sqlite3.connect(db_path)
 def hinzufügen():
     window.lift()
     window.focus_force()
